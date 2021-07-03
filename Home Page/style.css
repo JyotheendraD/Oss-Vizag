@@ -312,3 +312,48 @@
     -webkit-animation: borboleta-anim-loop 150ms ease-in-out infinite alternate-reverse;
     animation: borboleta-anim-loop 150ms ease-in-out infinite alternate-reverse;
 }
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: crimson;
+    padding: 15px 40px;
+    border-radius: 4px;
+    margin-left: 85%;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.button1 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: crimson;
+    padding: 15px 40px;
+    border-radius: 4px;
+    margin-left: 85%;
+    margin-bottom: 100%;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    margin-left: 520px;
+    margin-bottom: 50px;
+}

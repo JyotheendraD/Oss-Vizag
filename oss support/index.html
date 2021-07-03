@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Support Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>One Stop Solution Support</title>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+
+        <form id="contact" action="" method="post">
+            <h3>One Stop Solution Support</h3>
+            <h4>Contact us for support</h4>
+            <div class="alert">Your message has been delivered, Please wait while we get back to you</div>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" autofocus id="name" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" id="email" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" id="mobile">
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your query here" type="text" tabindex="4" id="message" required>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+
+        </form>
+    </div>
+    <!-- partial -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
